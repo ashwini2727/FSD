@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - EcoQuest</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>EcoQuest</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="lessons.html">Lessons</a>
+      <a href="quiz.html">Quiz</a>
+      <button id="logout">Logout</button>
+    </nav>
+  </header>
+  <main>
+    <section id="progress">
+      <h2>Your Progress</h2>
+      <p>Points: <span id="points">0</span></p>
+      <p>Badges: <span id="badges"></span></p>
+      <div class="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+    </section>
+  </main>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
